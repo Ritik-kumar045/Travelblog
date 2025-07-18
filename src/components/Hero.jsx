@@ -54,7 +54,7 @@ const Hero = () => {
     />
     <img
       className="w-full h-48 object-cover rounded-3xl shadow-lg"
-      src="src\assets\pexels-element5-1051073.jpg"
+      src="assets\pexels-element5-1051073.jpg"
       alt="Seoul city view"
     />
   </div>
