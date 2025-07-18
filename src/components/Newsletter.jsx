@@ -3,7 +3,7 @@ import { Mail, Linkedin, Instagram, Twitter } from 'lucide-react';
 
 const Newsletter = () => {
   return (
-    <div className="bg-gradient-to-br from-yellow-100 to-yellow-20">
+    <div  id ="Newsletter" className="bg-gradient-to-br from-yellow-100 to-yellow-20">
       
       <div className="py-16">
         <div className="mx-auto max-w-3xl px-6 lg:px-8 text-center">
@@ -58,7 +58,7 @@ const Newsletter = () => {
 
             
             <p className="text-sm text-gray-500">
-              © Krishna Jaiswal 2025. All rights reserved.
+              © Ritik Kumar 2025. All rights reserved.
             </p>
           </div>
         </div>

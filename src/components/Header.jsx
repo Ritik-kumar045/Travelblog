@@ -1,5 +1,7 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
+import Hero from './Hero';
+import Newsletter from './Newsletter';
 
 const Header = ({ mobileMenuOpen, setMobileMenuOpen }) => {
   return (
@@ -24,10 +26,10 @@ const Header = ({ mobileMenuOpen, setMobileMenuOpen }) => {
           </button>
         </div>
         <div className="hidden lg:flex lg:gap-x-14">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Home</a>
+          <a href="#Hero" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Home</a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Discover</a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Deals</a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Contact</a>
+          <a href="#Newsletter" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Contact</a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-4">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-purple-600">Sign Up</a>
